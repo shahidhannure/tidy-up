@@ -8,21 +8,15 @@ import javax.persistence.Id;
 
 import com.kodekonveyor.webapp.ExcludeFromCodeCoverage;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
 @Entity
-@Getter
-@Setter
-@EqualsAndHashCode
-@ToString
+@Data
 @ExcludeFromCodeCoverage("no code")
 public class UserEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;// NOPMD
+	private long id;
 	@Column(name = "username")
 	private String login;
 	@Column(name = "auth0id")
