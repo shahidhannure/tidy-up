@@ -6,13 +6,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import com.kodekonveyor.webapp.ExcludeFromCodeCoverage;
-
 import lombok.Data;
 
 @Entity
 @Data
-@ExcludeFromCodeCoverage("no code")
 public class UserEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

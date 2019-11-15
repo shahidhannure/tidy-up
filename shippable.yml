@@ -1,4 +1,4 @@
-build_image: viniciusartur/toolchain:feature.dockerfile-tuning
+build_image: kodekonveyor/toolchain:0.1.4alpha10
 language: python
 python:
   - 2.7
