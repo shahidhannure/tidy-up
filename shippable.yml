@@ -1,4 +1,4 @@
-build_image: viniciusartur/toolchain:10
+build_image: viniciusartur/toolchain:feature.dockerfile-tuning
 language: python
 python:
   - 2.7
