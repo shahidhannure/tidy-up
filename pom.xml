@@ -43,7 +43,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.1.7.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 
@@ -120,8 +120,7 @@
 					<configuration>
 						<scanIntervalSeconds>10</scanIntervalSeconds>
 						<connectors>
-							<connector
-								implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+							<connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
 								<port>8080</port>
 								<maxIdleTime>60000</maxIdleTime>
 							</connector>
@@ -284,7 +283,7 @@
 				<version>3.0.0</version>
 				<reportSets>
 					<reportSet>
-						<reports></reports>
+						<reports/>
 					</reportSet>
 				</reportSets>
 			</plugin>
@@ -390,7 +389,7 @@
         <dependency>
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
-            <version>2.3.2</version>
+            <version>2.4.5</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
